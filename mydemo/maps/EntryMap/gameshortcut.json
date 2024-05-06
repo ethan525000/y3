@@ -20,7 +20,7 @@
     "attack": {
         "__tuple__": true, 
         "items": [
-            true, 
+            false, 
             [
                 "A"
             ]
@@ -209,7 +209,7 @@
     "stop": {
         "__tuple__": true, 
         "items": [
-            true, 
+            false, 
             [
                 "S"
             ]
@@ -218,7 +218,7 @@
     "unit_common_atk_cmd": {
         "__tuple__": true, 
         "items": [
-            true, 
+            false, 
             [
                 "RIGHT_MOUSE_UNIT_CA"
             ]
@@ -227,7 +227,7 @@
     "unit_follow_target": {
         "__tuple__": true, 
         "items": [
-            true, 
+            false, 
             [
                 "RIGHT_MOUSE_FOLLOW_TARGET"
             ]
@@ -236,7 +236,7 @@
     "unit_move_to_point": {
         "__tuple__": true, 
         "items": [
-            true, 
+            false, 
             [
                 "RIGHT_MOUSE_UNIT_MOVE"
             ]

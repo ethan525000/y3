@@ -2496,6 +2496,27 @@
             "op_arg_enable": [
                 false
             ]
+        }, 
+        {
+            "action_type": "DUMP_TABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "TABLE", 
+                                "UI_Manager"
+                            ]
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 734306311000504, 
+            "enable": false
         }
     ], 
     "call_enabled": true, 

@@ -1,0 +1,136 @@
+{
+    "action": [
+        {
+            "action_type": "LIST_LOOP", 
+            "args_list": [
+                {
+                    "arg_type": 100081, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "PLAYER", 
+                                "\u6e38\u620f\u73a9\u5bb6\u7ec4"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "END_GAME_FOR_ROLE_2", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [], 
+                                            "sub_type": "GET_LOOP_LIST_INDEX"
+                                        }
+                                    ], 
+                                    "sub_type": "GET_ROLE_BY_INT"
+                                }, 
+                                {
+                                    "arg_type": 100047, 
+                                    "args_list": [
+                                        "defeat"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100070, 
+                                    "args_list": [
+                                        "f5e50920-7b3d-4076-b6a8-599b70783552"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        0
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 368050242000033, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 368050242000023, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 100000, 
+                    "args_list": [], 
+                    "sub_type": "CUR_GAME_TIME"
+                }, 
+                {
+                    "arg_type": 100015, 
+                    "args_list": [
+                        ">="
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        300.0
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "condition_type": "FLOAT_COMPARE", 
+            "element_id": 1668976707000021, 
+            "enable": true
+        }
+    ], 
+    "enabled": true, 
+    "event": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 100238, 
+                    "args_list": [
+                        1263722097
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1668976707000051, 
+            "enable": true, 
+            "event_type": "RECEIVE_CUSTOM_EVENT"
+        }
+    ], 
+    "group_id": "UgsmkfrTEe6-8di7wVgsHL", 
+    "p_trigger_id": null, 
+    "trigger_id": 352841795, 
+    "trigger_name": "\u8d85\u65f6\u7ed3\u675f\u6e38\u620f", 
+    "valid": true
+}

@@ -45,14 +45,15 @@
         "__tuple__": true, 
         "items": [
             [
-                -2, 
-                -2
+                0, 
+                0
             ], 
             [
-                1, 
-                1
+                0, 
+                0
             ], 
-            0
+            [], 
+            1.0
         ]
     }, 
     "description": -1697151555, 
@@ -73,7 +74,11 @@
     }, 
     "fresnel_emissive_color_strength": 1, 
     "fresnel_exp": 10, 
+    "height_num": -1, 
+    "height_offset": 0.0, 
     "icon": 100000, 
+    "is_x_offset": false, 
+    "is_z_offset": false, 
     "key": 134261953, 
     "kv": {}, 
     "material_alpha": 0, 
@@ -101,5 +106,7 @@
     "use_base_tint_color": false, 
     "use_fresnel": 0, 
     "use_physics": false, 
-    "use_virtual_light": 0
+    "use_virtual_light": 0, 
+    "width_num": -1, 
+    "width_offset": 0.0
 }

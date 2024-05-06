@@ -104,6 +104,28 @@
             }, 
             "variable_length_dict": {}
         }, 
+        "508530760": {
+            "variable_dict": {
+                "FLOAT": {}, 
+                "INTEGER": {
+                    "\u589e\u52a0\u79ef\u5206": 0, 
+                    "\u5f53\u524d\u603b\u79ef\u5206": 0
+                }, 
+                "NEW_TIMER": {}, 
+                "PLAYER": {
+                    "\u73a9\u5bb6": 0
+                }, 
+                "UNIT_ENTITY": {
+                    "\u5f53\u524d\u89d2\u8272": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "\u589e\u52a0\u79ef\u5206": 0, 
+                "\u5f53\u524d\u603b\u79ef\u5206": 0, 
+                "\u5f53\u524d\u89d2\u8272": 0, 
+                "\u73a9\u5bb6": 0
+            }
+        }, 
         "524156982": {
             "variable_dict": {
                 "UNIT_ENTITY": {
@@ -136,6 +158,16 @@
                 "unit": 0
             }
         }, 
+        "552677438": {
+            "variable_dict": {
+                "PLAYER": {
+                    "\u73a9\u5bb6": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "\u73a9\u5bb6": 0
+            }
+        }, 
         "568463368": {
             "variable_dict": {
                 "NEW_TIMER": {
@@ -152,6 +184,18 @@
                 "player": 0, 
                 "t": 0, 
                 "unit": 0
+            }
+        }, 
+        "630919228": {
+            "variable_dict": {
+                "INTEGER": {
+                    "x_pos": 0, 
+                    "y_pos": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "x_pos": 0, 
+                "y_pos": 0
             }
         }, 
         "671428624": {
@@ -505,25 +549,52 @@
         }, 
         "1670881336": {
             "variable_dict": {
+                "FLOAT": {
+                    "\u589e\u52a0\u79ef\u5206": 0.0
+                }, 
                 "INTEGER": {
                     "i": 1, 
                     "path_i": 0
                 }, 
-                "NEW_TIMER": {}
-            }, 
-            "variable_length_dict": {
-                "i": 0, 
-                "path_i": 0
-            }
-        }, 
-        "1754116151": {
-            "variable_dict": {
+                "NEW_TIMER": {}, 
                 "UNIT_ENTITY": {
                     "\u65b0\u51fa\u751f\u89d2\u8272": 0
                 }
             }, 
             "variable_length_dict": {
+                "i": 0, 
+                "path_i": 0, 
+                "\u589e\u52a0\u79ef\u5206": 0, 
                 "\u65b0\u51fa\u751f\u89d2\u8272": 0
+            }
+        }, 
+        "1754116151": {
+            "variable_dict": {
+                "FLOAT": {
+                    "\u589e\u52a0\u79ef\u5206": 0.0
+                }, 
+                "NEW_TIMER": {
+                    "\u9ed8\u8ba4\u53d8\u91cf\u540d": -1
+                }, 
+                "POINT_LIST": {}, 
+                "UNIT_ENTITY": {
+                    "\u65b0\u51fa\u751f\u89d2\u8272": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "\u589e\u52a0\u79ef\u5206": 0, 
+                "\u65b0\u51fa\u751f\u89d2\u8272": 0, 
+                "\u9ed8\u8ba4\u53d8\u91cf\u540d": 0
+            }
+        }, 
+        "1867862081": {
+            "variable_dict": {
+                "PLAYER": {
+                    "\u5f53\u524d\u73a9\u5bb6": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "\u5f53\u524d\u73a9\u5bb6": 0
             }
         }, 
         "1872433179": {
@@ -532,6 +603,17 @@
                 "PLAYER": {}
             }, 
             "variable_length_dict": {}
+        }, 
+        "1875570739": {
+            "variable_dict": {
+                "FLOAT": {
+                    "\u5f53\u524d\u6e38\u620f\u7528\u65f6": 0.0
+                }, 
+                "INTEGER": {}
+            }, 
+            "variable_length_dict": {
+                "\u5f53\u524d\u6e38\u620f\u7528\u65f6": 0
+            }
         }, 
         "2010271789": {
             "variable_dict": {
@@ -585,10 +667,26 @@
     }, 
     "variable_dict": {
         "ANGLE": {}, 
+        "BOOLEAN": {
+            "\u65b0\u51fa\u751f\u4fdd\u62a4": true
+        }, 
+        "FLOAT": {
+            "BOSS\u79ef\u5206": 0.0, 
+            "tips_scale": 0.0, 
+            "\u5355\u5c40\u603b\u79ef\u5206": 0.0
+        }, 
         "INTEGER": {
             "GLOBAL_BAG_MAX_NUM": 0, 
+            "\u51fb\u6740\u6570": 0, 
+            "\u521d\u59cb\u91d1\u5e01": 100, 
+            "\u6311\u6218\u8005\u6b7b\u4ea1\u8ba1\u6570": 0, 
             "\u89d2\u8272\u65b9\u5411": 0
         }, 
+        "NEW_TIMER": {}, 
+        "PLAYER": {
+            "\u6e38\u620f\u73a9\u5bb6\u7ec4": 0
+        }, 
+        "PLAYER_GROUP": {}, 
         "POINT": {
             "\u51fa\u751f\u70b9": {
                 "__tuple__": true, 
@@ -607,7 +705,9 @@
             "UI_Manager": null
         }, 
         "UI_DIRECTION": {}, 
-        "UNIT_ENTITY": {}, 
+        "UNIT_ENTITY": {
+            "\u89d2\u8272\u7ec4": 0
+        }, 
         "UNIT_NAME": {}
     }, 
     "variable_group_info": [
@@ -652,14 +752,92 @@
                 "\u6e38\u620f\u8def\u5f84", 
                 "\u6e38\u620f\u8def\u5f84"
             ]
+        }, 
+        {
+            "group": [
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u521d\u59cb\u91d1\u5e01", 
+                        "\u521d\u59cb\u91d1\u5e01"
+                    ]
+                }, 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u51fb\u6740\u6570", 
+                        "\u51fb\u6740\u6570"
+                    ]
+                }, 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u65b0\u51fa\u751f\u4fdd\u62a4", 
+                        "\u65b0\u51fa\u751f\u4fdd\u62a4"
+                    ]
+                }, 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "BOSS\u79ef\u5206", 
+                        "BOSS\u79ef\u5206"
+                    ]
+                }, 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u89d2\u8272\u7ec4", 
+                        "\u89d2\u8272\u7ec4"
+                    ]
+                }
+            ], 
+            "key": "jJSG3vufEe6En9i7wVgsHC", 
+            "name": "DW\u53d8\u91cf"
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "tips_scale", 
+                "tips_scale"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u6311\u6218\u8005\u6b7b\u4ea1\u8ba1\u6570", 
+                "\u6311\u6218\u8005\u6b7b\u4ea1\u8ba1\u6570"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u5355\u5c40\u603b\u79ef\u5206", 
+                "\u5355\u5c40\u603b\u79ef\u5206"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u6e38\u620f\u73a9\u5bb6\u7ec4", 
+                "\u6e38\u620f\u73a9\u5bb6\u7ec4"
+            ]
         }
     ], 
     "variable_length_dict": {
+        "BOSS\u79ef\u5206": 10, 
         "GLOBAL_BAG_MAX_NUM": 0, 
         "UI_Manager": 0, 
+        "tips_scale": 10, 
         "\u51fa\u751f\u70b9": 0, 
+        "\u51fb\u6740\u6570": 10, 
+        "\u521d\u59cb\u91d1\u5e01": 0, 
+        "\u5355\u5c40\u603b\u79ef\u5206": 0, 
         "\u53cd\u5411\u8def\u5f84": 0, 
+        "\u6311\u6218\u8005\u6b7b\u4ea1\u8ba1\u6570": 0, 
+        "\u65b0\u51fa\u751f\u4fdd\u62a4": 10, 
+        "\u6e38\u620f\u73a9\u5bb6\u7ec4": 10, 
         "\u6e38\u620f\u8def\u5f84": 0, 
-        "\u89d2\u8272\u65b9\u5411": 0
+        "\u89d2\u8272\u65b9\u5411": 0, 
+        "\u89d2\u8272\u7ec4": 10
     }
 }

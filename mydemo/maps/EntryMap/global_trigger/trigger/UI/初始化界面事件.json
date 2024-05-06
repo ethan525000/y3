@@ -1387,6 +1387,28 @@
         "72462362": {
             "action": [
                 {
+                    "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
+                    "args_list": [
+                        {
+                            "arg_type": 100175, 
+                            "args_list": [
+                                3
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "click_ui_unit_list"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 72462362000059, 
+                    "enable": true
+                }, 
+                {
                     "action_type": "SET_VARIABLE", 
                     "args_list": [
                         {
@@ -2072,6 +2094,28 @@
         }, 
         "291192863": {
             "action": [
+                {
+                    "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
+                    "args_list": [
+                        {
+                            "arg_type": 100175, 
+                            "args_list": [
+                                3
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "focu_on_select_unit"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 72462362000059, 
+                    "enable": true
+                }, 
                 {
                     "action_type": "NEW_CAMERA_SET_FOLLOW_UNIT", 
                     "args_list": [
@@ -4967,6 +5011,28 @@
         }, 
         "1302442017": {
             "action": [
+                {
+                    "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
+                    "args_list": [
+                        {
+                            "arg_type": 100175, 
+                            "args_list": [
+                                3
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "main_unit_skill_list_value_change"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 72462362000059, 
+                    "enable": true
+                }, 
                 {
                     "action_type": "CALL_TRIGGER_FUNC", 
                     "args_list": [

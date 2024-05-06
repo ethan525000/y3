@@ -4,7 +4,8 @@
             "children": [
                 1875570739, 
                 "k-yOwLG2Ee2YRwD-+E6xsS", 
-                "UgsmkfrTEe6-8di7wVgsHL"
+                "UgsmkfrTEe6-8di7wVgsHL", 
+                "qeg8DwFSEe+suti7wVgsHH"
             ], 
             "key": "root_key", 
             "name": "root", 
@@ -32,10 +33,21 @@
         }, 
         {
             "children": [
-                1754116151
+                1754116151, 
+                630919228, 
+                451637309, 
+                1867862081, 
+                352841795
             ], 
             "key": "UgsmkfrTEe6-8di7wVgsHL", 
             "name": "\u89d2\u8272", 
+            "parent": null, 
+            "type": "trigger_group"
+        }, 
+        {
+            "children": [], 
+            "key": "qeg8DwFSEe+suti7wVgsHH", 
+            "name": "\u68c0\u67e5\u6570\u636e", 
             "parent": null, 
             "type": "trigger_group"
         }, 
@@ -71,6 +83,34 @@
             "children": null, 
             "key": 1754116151, 
             "name": "\u751f\u6210\u89d2\u8272", 
+            "parent": "UgsmkfrTEe6-8di7wVgsHL", 
+            "type": "trigger"
+        }, 
+        {
+            "children": null, 
+            "key": 630919228, 
+            "name": "\u9f20\u6807\u79fb\u52a8", 
+            "parent": "UgsmkfrTEe6-8di7wVgsHL", 
+            "type": "trigger"
+        }, 
+        {
+            "children": null, 
+            "key": 451637309, 
+            "name": "\u5355\u4f4d\u5c5e\u6027\u7ed1\u5b9a", 
+            "parent": "UgsmkfrTEe6-8di7wVgsHL", 
+            "type": "trigger"
+        }, 
+        {
+            "children": null, 
+            "key": 1867862081, 
+            "name": "\u5224\u5b9a\u80dc\u5229", 
+            "parent": "UgsmkfrTEe6-8di7wVgsHL", 
+            "type": "trigger"
+        }, 
+        {
+            "children": null, 
+            "key": 352841795, 
+            "name": "\u8d85\u65f6\u7ed3\u675f\u6e38\u620f", 
             "parent": "UgsmkfrTEe6-8di7wVgsHL", 
             "type": "trigger"
         }
